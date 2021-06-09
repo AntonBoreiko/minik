@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AntonBoreiko/bolierplate-parcel/issues"
   },
-  "homepage": "https://github.com/AntonBoreiko/bolierplate-parcel#readme"
+  "homepage": "https://github.com/AntonBoreiko/bolierplate-parcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
