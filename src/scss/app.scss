@@ -1,4 +1,4 @@
-h1 {
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   color: red;
-}
+@import "~bootstrap/scss/bootstrap";
+
+// --------------------------------------
+@import "./scaffold";
