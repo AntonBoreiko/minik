@@ -2,16 +2,302 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Bolierplate Parcel.js</title>
-   <link rel="stylesheet" href="./src/scss/app.scss">
-   <script src="./src/javascript/script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolierplate Parcel.js</title>
+  <link rel="stylesheet" href="./src/scss/app.scss">
+  <script src="./src/javascript/script.js"></script>
 </head>
 
 <body>
-   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, temporibus!</h1>
+  <header>
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="img/logo.jpg" alt="logo">
+      </div>
+      <nav class="header_list">
+        <div class="header__mobile">
+          <ul class="header__ul_mobile">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Наши работы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </nav>
+      <div class="header__phone">
+        <a href="#">+37544 999 99 99</a>
+        <!-- <a href="#">+37544 999 99 99</a> -->
+        <span>ежедневно с 9:00 до 20:00</span>
+      </div>
+    </div>
+  </header>
+  <section class="virtual">
+    <div class="container virtual__container">
+      <div class="virtual__column">
+        <h1 class="verctical__title">
+          АРЕНДА МИНИ-ЭКСКАВАТОРА
+        </h1>
+        <p class="virtual__text">
+          Мини-экскаватора с гидробуром //вопрос и гидромолотом в Минске, Минской области и
+          всей РБ
+          ДОСТАВИМ И ОПЕРАТИВНО ВЫКОПАЕМ НУЖНЫЙ ОБЪЕМ ЧАСТНИКАМ И ПРЕДПРИЯТИЯМ СОБСТВЕННЫМ
+          МИНИ-ЭКСКАВАТОРОМ С ОПЫТНЫМИ
+          МАШИНИСТАМИ</p>
+        <a href="#" class="virtual__link">Заказать</a>
+      </div>
+    </div>
+  </section>
+  <section class="Leading">
+    <div class="Leading__container container">
+
+      <div class="Leading__column">
+        <h2 class="Leading__title">Что мы предлагаем?</h2>
+        <hr class="Leading__line">
+        <p class="Leading__text">Мини-экскаватор Bobcat 323. Он комплектуется навесным оборудованием в виде
+          ковшей
+          разной формы. Их размерный ряд
+          представлен четырьмя вариантами: 30, 40 и 60 см для копания; 100 см для снятия и планирования верхнего
+          слоя грунта, а
+          также для иных заданий на небольших участках.</p>
+        <a href="#" class="Leading__link">Learn more</a>
+      </div>
+      <div class="Leading__column">
+        <img class="Leading__img" src="img/1503_bg2.jpg" alt="">
+      </div>
+      <!-- карточки с услугами -->
+      <section class="services">
+        <div class="container services__container">
+          <h2 class="services__title">Услуги, которые мы предлагаем</h2>
+          <hr class="services__line">
+          <div class="services__row">
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/tranhei.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Рытье траншей под:</h3>
+                <p class="services-box__text">ленточный фундамент, водопровод, газ, электрические,
+                  телекоммуникационные и телефонные кабеля, установку забора,
+                  канализацию, траншеи в малодоступных местах и прочих стеснённых условиях.</p>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/septik.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Рытье котлованов (выемок, ям) под:</h3>
+                <p class="services-box__text">колодцы, бассейны, водоемы, пруды, септики.</p>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/planirovka.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Планировочные работы.
+                </h3>
+                <p class="services-box__text">
+                  Снятие растительного плодородного слоя.
+                  Выемка грунта, погрузка на машину сыпучих материалов и др., обратная засыпка.
+                  Пристенное копание.
+                </p>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/burenie.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Бурение свай под заборы, дома, беседки и т. п.
+                </h3>
+                <p class="services-box__text"></p>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/kustu.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Корчевание кустов, пней.</h3>
+                <p class="services-box__text"></p>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services-box">
+                <img src="img/uteplenie.jpg" alt="" class="services-box__img">
+                <h3 class="services-box__title">Выемка грунта для гидроизо ляции и утепления.</h3>
+                <p class="services-box__text">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- карточки с услугами -->
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="container advantages__container">
+      <h2 class="advantages__title">Наши приемущества</h2>
+      <!-- <hr class="services__line"> -->
+      <div class="advantages__row">
+        <div class="advantages__item">
+          <img src="img/digger.png" alt="" class="advantages-box__img">
+          <h3 class="advantages-box__title">СОБСТВЕННАЯ ТЕХНИКА</h3>
+          <p class="advantages-box__text">Свой мини-экскаватор. Аренда от собственника, без посредников!</p>
+        </div>
+
+        <div class="advantages__item">
+          <img src="img/timer.png" alt="" class="services-box__img">
+          <h3 class="advantages-box__title">ОПЕРАТИВНОЕ ИСПОЛНЕНИЕ</h3>
+          <p class="advantages-box__text">Гарантия доставки техники строго в
+            оговоренное время.</p>
+        </div>
+        <div class="advantages__item">
+          <img src="img/gruzovik.png" alt="" class="services-box__img">
+          <h3 class="advantages-box__title"> ДОСТАВКA</h3>
+          <p class="advantages-box__text">Доставляем и забираем технику с объекта сами.
+          </p>
+        </div>
+        <div class="advantages__item">
+          <img src="img/price.png" alt="" class="services-box__img">
+          <h3 class="advantages-box__title">ЛУЧШИЕ ЦЕНЫ</h3>
+          <p class="advantages-box__text">Работаем на совесть. Без посредников!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container price__container">
+      <h2 class="price__title">Цены</h2>
+      <hr class="price__line">
+      <div class="price__row">
+        <div class="price__item">
+          <div class="price-box">
+            <!-- <img src="img/article/article_second.png" alt="" class="article-box__img"> -->
+            <div class="price-box__item">
+              <h3 class="price-box__title">ЦЕНА ЗА ЧАС</h3>
+              <h4>от 45 руб</h4>
+              <hr class="price-box__line">
+              <!-- <a href="#">+37544 999 99 99</a>
+              <a href="#">+37544 999 99 99</a> -->
+              <p>или от 4 руб. за 1 сваю</p>
+            </div>
+          </div>
+        </div>
+        <div class="price__item">
+          <div class="price-box">
+            <!-- <img src="img/article/article_third.png" alt="" class="article-box__img"> -->
+            <div class="price-box__item">
+              <h3 class="price-box__title">ДОСТАВКА</h3>
+              <h4>Доставляем и забираем технику САМИ.</h4>
+              <hr class="price-box__line">
+              <!-- <p>Доставляем и забираем технику САМИ. </p> -->
+              <span>Доставка спецтехники на расстояние рассчитывается
+                индивидуально. Уточняйте у оператора.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="article__link">Learn more</a>
+    </div>
+  </section>
+  <section class="download">
+    <div class="container download__container">
+      <div class="download__column">
+        <h2 class="download__title">Наши работы</h2>
+        <hr class="download__line">
+        <div class="download__row">
+          <div class="download__item">
+            <a href=""><img src="img/burenie.jpg" alt=""></a>
+            <a href=""><img src="img/kustu.jpg" alt=""></a>
+            <a href=""><img src="img/planirovka.jpg" alt=""></a>
+          </div>
+          <div class="download__item">
+            <a href=""><img src="img/septik.jpg" alt=""></a>
+            <a href=""><img src="img/tranhei.jpg" alt=""></a>
+            <a href=""><img src="img/uteplenie.jpg" alt=""></a>
+          </div>
+        </div>
+        <!-- галерея -->
+        <p class="download__text"></p>
+
+
+
+        <a href="#" class="download__link">Больше работ</a>
+      </div>
+    </div>
+  </section>
+  <section class="article">
+    <div class="container article__container">
+      <h2 class="article__title">Контакты</h2>
+      <hr class="article__line">
+      <div class="article__row">
+        <div class="article__item">
+          <div class="article-box">
+            <img src="img/article/article_first.png" alt="" class="article-box__img">
+            <div class="article-box__item">
+              <h3 class="article-box__title">Мы в Соц. Сетях</h3>
+              <a href="#" class="article-box__link"><i class="fab fa-whatsapp-square"></i></a>
+              <a href="#" class="article-box__link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="article-box__link"><i class="fab fa-telegram"></i></a>
+              <a href="#" class="article-box__link"><i class="fab fa-viber"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="article__item">
+          <div class="article-box">
+            <img src="img/article/article_second.png" alt="" class="article-box__img">
+            <div class="article-box__item">
+              <h3 class="article-box__title">Телефон</h3>
+              <a href="#">+37544 999 99 99</a>
+              <a href="#">+37544 999 99 99</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="article__item">
+          <div class="article-box">
+            <img src="img/article/article_third.png" alt="" class="article-box__img">
+            <div class="article-box__item">
+              <h3 class="article-box__title">E-mail</h3>
+              <a href="#">1214.43@mail.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" class="article__link">Learn more</a>
+    </div>
+  </section>
+  <footer>
+    <div class="container footer__container">
+      <div class="footer_row">
+        <div class="footer__item">
+          <img class="footer__logo" src="img/logo.jpg" alt="">
+          <div class="footer__column-item">
+            <p class="footer__rights">
+              Минск. Минская область. <br>
+              УНП 190371000 ИП Каешко К.Л.
+              ВСЕ ПРАВА ЗАЩИЩЕНЫ © 2021</p>
+          </div>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Мы в Соц. Сетях</h3>
+          <div class="footer-box__item">
+            <a href="#" class="footer-box__link"><i class="fab fa-whatsapp-square"></i></a>
+            <a href="#" class="footer-box__link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-box__link"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="footer-box__link"><i class="fab fa-viber"></i></a>
+          </div>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Контакты</h3>
+          <a class="footer__" href="#">+37544 999 99 99</a>
+          <a href="#">1214.43@mail.ru</a>
+        </div>
+
+      </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <!-- <script src="js/script.js"></script>  -->
 </body>
 
 </html>
