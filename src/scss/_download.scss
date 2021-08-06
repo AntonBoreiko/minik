@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+.download {
+  padding: 60px 0;
+  background: #1b1e22;
+  margin-bottom: 40px;
+}
+.download__wrap {
+  min-height: 500px;
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.carousel-item {
+  img {
+    margin: 0px auto;
+    max-width: 80%;
+    height: 600px;
+  }
+}
+.download__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #fff;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .download {
+    padding: 30px 0;
+    margin-bottom: 0px;
+  }
+  .download__wrap {
+    min-height: 400px;
+  }
+  .carousel-item {
+    img {
+      height: 400px;
+    }
+  }
+}

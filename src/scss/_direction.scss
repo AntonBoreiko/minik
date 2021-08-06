@@ -1,0 +1,157 @@
+section.direction {
+  background: #1b1e22;
+}
+.direction_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0 72px 0;
+}
+.direction_container h2 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.row {
+  .item {
+    width: 29%;
+  }
+}
+//
+.item {
+  padding: 10px 0px;
+}
+.item_img {
+  position: relative;
+}
+.item_img img {
+  width: 100%;
+  height: 250px;
+}
+.item_price p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background: #1b1e22;
+  opacity: 0.75;
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+  border-radius: 0px 10px 10px 0;
+}
+.item {
+  background: #23282f;
+  color: #ffffff;
+  width: 30%;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+/*  */
+@media (max-width: 1024px) {
+  .row {
+    padding: 0px 15px;
+  }
+}
+@media (max-width: 768px) {
+  section.direction {
+    padding: 0px 25px;
+  }
+  .row {
+    flex-wrap: wrap;
+    .item {
+      width: 47%;
+    }
+  }
+
+  .container_number {
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 47%;
+    margin-bottom: 50px;
+  }
+  .block span {
+    font-size: 54px;
+  }
+}
+@media (max-width: 480px) {
+  section.direction {
+    padding: 0px 15px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    .item {
+      width: 100%;
+    }
+  }
+}
+.item {
+  transform: scale(1);
+}
+.item {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.item {
+  transition-timing-function: linear;
+}
+.item:hover {
+  transform: scale(1.05);
+  color: #333333;
+  background: #ffffff;
+}
+.item_text {
+  padding: 16px 20px;
+}
+.item_text h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.item_text p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+.item_text a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: gray;
+}
+.direction_container > a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffb800;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+a.wach {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+a.wach {
+  transition-timing-function: linear;
+}
+a.wach:hover {
+  color: #000000;
+  background: #ffb800;
+}

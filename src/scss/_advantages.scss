@@ -1,0 +1,25 @@
+.advantages {
+  background: #1b1e22;
+  padding: 60px 0px;
+}
+.header_bottom h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 44px;
+  img {
+    color: #fff;
+  }
+}
+.header_column {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.column_element {
+  img {
+    width: 110px;
+  }
+}
