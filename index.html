@@ -12,7 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
     defer></script>
-  <script src="./src/javascript/script.js" defer></script>
+  <script src="./src/javascript/app.js" defer></script>
   <title>Аренда мини-экскаватора в Минске и Беларуси</title>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">
@@ -128,7 +128,7 @@
       <div class="row">
         <div class="item">
           <div class="item_img">
-            <img src="/src/img/carusel/изображение_viber_2021-07-24_17-46-39-196.jpg" alt="">
+            <img src="/dist/burenie.f7c5c5ed.jpg" alt="">
           </div>
           <div class="item_text">
             <h3>Бурение свай под заборы, дома, беседки и т. п.</h3>
@@ -201,7 +201,7 @@
           <div class="price-box">
             <div class="price-box__item">
               <h3 class="price-box__title">ЦЕНА ЗА ЧАС</h3>
-              <h4>от 45 руб</h4>
+              <h4>от 50 руб</h4>
               <p>минимальный выезд 4 часа</p>
             </div>
           </div>
@@ -220,6 +220,7 @@
       <div class="price-phone">
         <h3>Узнать более подробную информацию можно по телефону</h3>
         <a href="tel:+375291425960" class="article__link">Позвоните нам</a>
+        <button data-modal class="btn btn-primary">Перезвонить мне</button>
       </div>
     </div>
   </section>
@@ -278,6 +279,32 @@
             <img src="/src/img/carusel/98301558_1150971335283635_6024131203885722933_n.jpg" class="d-block w-100 "
               alt="...">
           </div>
+          <!-- новые фотки -->
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei1.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei2.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei3.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei4.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei5.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei6.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei7.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/carusel/tranhei8.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <!--  -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -364,12 +391,23 @@
             <a class="footer__tel" href="tel:+375291425960">+375291425960</a>
             <a href="mailto:pkayeshko@mail.ru" target="_blank">pkayeshko@mail.ru</a>
           </div>
-
         </div>
-
       </div>
   </footer>
-
+  <div class="modal">
+    <div class="modal__dialog">
+      <div class="modal__content">
+        <form action="#">
+          <div data-close class="modal__close">&times;</div>
+          <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+          <input required placeholder="Ваше имя*" name="name" type="text" class="modal__input">
+          <input required placeholder="Ваш номер телефона*" name="phone" type="phone" class="modal__input">
+          <input required placeholder="Адрес объекта*" name="address" type="text" class="modal__input">
+          <button class="btn btn-dark btn-min">Перезвонить мне</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
